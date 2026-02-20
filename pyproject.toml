@@ -1,6 +1,6 @@
 [project]
 name = "pl-run-program"
-version = "0.0.19"
+version = "0.0.20"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
 authors = [{ name = "Peter Lavigne" }]
