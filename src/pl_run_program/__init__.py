@@ -4,9 +4,9 @@ from .run_simple_program import SimpleProgramError, run_simple_program
 
 __all__ = [
     "Program",
-    "program_at_path",
     "ProgramResult",
-    "run_program",
     "SimpleProgramError",
+    "program_at_path",
+    "run_program",
     "run_simple_program",
 ]
