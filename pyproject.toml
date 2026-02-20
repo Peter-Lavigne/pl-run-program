@@ -1,6 +1,6 @@
 [project]
 name = "pl-run-program"
-version = "0.0.13"
+version = "0.0.14"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
 authors = [
@@ -13,6 +13,10 @@ license-files = ["LICENSE"]
 classifiers = [
   "License :: OSI Approved :: Apache Software License",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Peter-Lavigne/pl-run-program"
+Repository = "https://github.com/Peter-Lavigne/pl-run-program"
 
 [build-system]
 requires = ["uv_build>=0.10.4,<0.11.0"]
