@@ -1,6 +1,6 @@
 # pl-run-program
 
-A simple interface for running programs.
+A simple interface for running non-python programs in python.
 
 ## License
 
