@@ -1,6 +1,6 @@
 [project]
 name = "pl-run-program"
-version = "0.0.17"
+version = "0.0.18"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
 authors = [{ name = "Peter Lavigne" }]
@@ -154,7 +154,7 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 # S101 bans assert statements. Since I use them heavily in test files, I disable this check in tests.
-# S105 and S106 ban hard-coding secrets-setting. I often do this in tests to configure dependencies, so I disable these checks in tests.
+# S105 and S106 ban hard-coding secrets-setting. I often do this with fake values in tests to configure dependencies, so I disable these checks in tests.
 "*_test.py" = ["S101", "S105", "S106"]
 
 
