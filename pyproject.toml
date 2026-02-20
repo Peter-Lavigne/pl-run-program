@@ -1,6 +1,6 @@
 [project]
 name = "pl-run-program"
-version = "0.0.0"
+version = "0.0.1"
 description = "A simple interface for running programs."
 readme = "README.md"
 authors = [
