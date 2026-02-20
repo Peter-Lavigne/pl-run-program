@@ -79,7 +79,7 @@ wheels = [
 
 [[package]]
 name = "pl-run-program"
-version = "0.0.21"
+version = "0.0.22"
 source = { editable = "." }
 
 [package.dev-dependencies]
