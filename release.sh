@@ -38,11 +38,10 @@ uv publish
 echo 'Running "git add -A..."'
 git add -A
 
-echo 'Running "git commit -m "Bump version to $(uv version)"..."'
-git commit -m "Bump version to $(uv version)"
+echo 'Running "git commit -m "Bump version to $(uv version --short)"..."'
+git commit -m "Bump version to $(uv version --short)"
 
 echo 'Running "git push"...'
 git push
 
 echo 'Release complete.'
-
