@@ -1,18 +1,14 @@
 [project]
 name = "pl-run-program"
-version = "0.0.16"
+version = "0.0.17"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
-authors = [
-    { name = "Peter Lavigne" }
-]
+authors = [{ name = "Peter Lavigne" }]
 requires-python = ">=3.14"
 dependencies = []
 license = "Apache-2.0"
 license-files = ["LICENSE"]
-classifiers = [
-  "License :: OSI Approved :: Apache Software License",
-]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
 
 [project.urls]
 Homepage = "https://github.com/Peter-Lavigne/pl-run-program"
@@ -23,13 +19,7 @@ requires = ["uv_build>=0.10.4,<0.11.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = [
-    "pyright>=1.1.408",
-    "pytest>=9.0.2",
-    "pytest-cov>=7.0.0",
-    "pytest-xdist>=3.8.0",
-    "ruff>=0.15.2",
-]
+dev = ["pyright>=1.1.408", "pytest>=9.0.2", "pytest-cov>=7.0.0", "ruff>=0.15.2"]
 
 [tool.ruff.lint]
 select = [
@@ -91,6 +81,9 @@ select = [
     "FURB",
     "RUF",
     "TRY",
+    "T20",
+    "DTZ",
+    "S608",
 ]
 ignore = [
     # From https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules :
@@ -111,9 +104,6 @@ ignore = [
     # Inconsistent with D211, which I prefer.
     # https://docs.astral.sh/ruff/rules/incorrect-blank-line-before-class/
     "D203",
-    # Most of this repo is CLI tools, so I use `print` and `pprint` a lot.
-    # Therefore, don't flag them.
-    "T20",
     # D212 and D213 are mutually exclusive. I prefer D213.
     "D212",
     # D100-D107 make docstrings mandatory. I think redundant docstrings add noise, so I disable these checks.
@@ -133,9 +123,6 @@ ignore = [
     # I understand why this check exists, but I don't use performance mode and think that asserts are a concise way to express some constraints. Leaving this disabled.
     # Note: This is also ignored in test files below, because I definitely don't want this check in pytest tests.
     "S101",
-    # Someday, when I am old and wise and at peace (or banging my head against timezones, again), I'd like to sit down and fully guard my codebase against timezone issues.
-    # That day is not today.
-    "DTZ",
     # Code smells, but not necessarily errors.
     "PLR2004",
     "PLR0911",
@@ -156,8 +143,6 @@ ignore = [
     # Logging-related checks. When I better understand logging best practices, I may re-enable this.
     "G004",
     "LOG015",
-    # SQL-related check. When I start using SQL more, I may re-enable this.
-    "S608",
     # All of my failures for this check were false positives.
     # "Prone to false positives" is listed in the docs for this check.
     "S603",

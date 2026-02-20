@@ -2,6 +2,10 @@
 
 A simple interface for running non-python programs in python.
 
+## Project Status
+
+Alpha. Expect breaking changes.
+
 ## Installation
 
 ```
