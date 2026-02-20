@@ -1,7 +1,7 @@
 [project]
 name = "pl-run-program"
-version = "0.1.0"
-description = "A simple interface for running programs"
+version = "0.0.0"
+description = "A simple interface for running programs."
 readme = "README.md"
 authors = [
     { name = "Peter Lavigne" }
