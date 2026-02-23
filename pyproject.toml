@@ -1,10 +1,10 @@
 [project]
 name = "pl-run-program"
-version = "0.0.22"
+version = "0.0.23"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
 authors = [{ name = "Peter Lavigne" }]
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = []
 license = "Apache-2.0"
 license-files = ["LICENSE"]
