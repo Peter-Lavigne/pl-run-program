@@ -1,6 +1,6 @@
 [project]
 name = "pl-run-program"
-version = "0.0.27"
+version = "0.0.28"
 description = "A simple interface for running non-python programs in python."
 readme = "README.md"
 authors = [{ name = "Peter Lavigne" }]
@@ -19,7 +19,7 @@ requires = ["uv_build>=0.10.4,<0.11.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = ["pl-ci-cd>=0.0.12"]
+dev = ["pl-ci-cd==0.0.18"]
 
 [tool.ruff]
 extend = "copied/pyproject.toml"
