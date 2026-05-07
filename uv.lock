@@ -257,7 +257,7 @@ wheels = [
 
 [[package]]
 name = "pl-ci-cd"
-version = "0.0.77"
+version = "0.0.78"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pl-mocks-and-fakes" },
@@ -266,9 +266,9 @@ dependencies = [
     { name = "pl-user-io" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/35/2f/f80335c3ff80c6765482ded1013031a072dbe30070f0eee588930943bb88/pl_ci_cd-0.0.77.tar.gz", hash = "sha256:4496de7e952d280037277b5d4786474c5692385fc0e6100f5890c850490aa07d", size = 8141, upload-time = "2026-05-07T10:51:39.552Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/77/c9/a74e5d21db46af9bc62569cecf3135f4ad1d6d78bdb2eebe944efba8af68/pl_ci_cd-0.0.78.tar.gz", hash = "sha256:4ebc343b01ce1fa5dd70ed806cdd992b954bc614a85933231fac286c1996a95f", size = 8132, upload-time = "2026-05-07T10:56:08.88Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/fb/630ed5f9b32036383ebde9ebe24a61d58073845ea2b21995d4d2526db61a/pl_ci_cd-0.0.77-py3-none-any.whl", hash = "sha256:e205b33c32726286e19f359c4c6b5b3b1a62f3bf80de38f60118b97fd0e85a18", size = 10598, upload-time = "2026-05-07T10:51:40.471Z" },
+    { url = "https://files.pythonhosted.org/packages/86/6c/a0bd286aa46fe3477c0fa2c675683e615a507a46736d426a39a2f7d86337/pl_ci_cd-0.0.78-py3-none-any.whl", hash = "sha256:58e79011e44810bca8de0c2e7795c0dea4a6cc1bdd2b88a7c695bd83f243e5c0", size = 10597, upload-time = "2026-05-07T10:56:07.765Z" },
 ]
 
 [[package]]
@@ -301,7 +301,7 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pl-ci-cd", specifier = ">=0.0.77" },
+    { name = "pl-ci-cd", specifier = ">=0.0.78" },
     { name = "pyright", specifier = "==1.1.409" },
     { name = "pytest", specifier = "==9.0.2" },
     { name = "pytest-cov", specifier = "==7.0.0" },
