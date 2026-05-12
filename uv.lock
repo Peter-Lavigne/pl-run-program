@@ -606,7 +606,7 @@ wheels = [
 
 [[package]]
 name = "verploy"
-version = "0.0.2"
+version = "0.0.20"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pl-mocks-and-fakes" },
@@ -615,7 +615,7 @@ dependencies = [
     { name = "pl-user-io" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2a/b6/fd865ebbf449f511bc265d3055c5944f41c0b6c4a555762b8da639ba6e6a/verploy-0.0.2.tar.gz", hash = "sha256:fff267f03433d0ca6e4b3ed52e4b270cac16db235e6ca560caf9d7b41527d15f", size = 8342, upload-time = "2026-05-08T11:58:21.832Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/70/72/923879cc4289778d22eeb4fcc98c1b9b94b18272b3230dcb435ede7d4821/verploy-0.0.20.tar.gz", hash = "sha256:663557397a27482f6bcd6bb48ae67a9f5ab895ca55d699cfd9585ae2804b04c4", size = 8177, upload-time = "2026-05-12T12:08:57.777Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5e/64/1a6bc04501bdd41234ac3c598e0dae5ff038dc199abc3bf07f6acc526589/verploy-0.0.2-py3-none-any.whl", hash = "sha256:702830372877a5567d550e2972404b870c7812dab701c7c9894eada570793d38", size = 10756, upload-time = "2026-05-08T11:58:23.064Z" },
+    { url = "https://files.pythonhosted.org/packages/17/d7/c609d2587a960a55b571219700c857cd92a97d70eb087637b3bc3ad9adbc/verploy-0.0.20-py3-none-any.whl", hash = "sha256:1ebd575ba8be4a1f68d0e659f784fa7d94b7f5ff4d90abdd3680611872fff579", size = 9529, upload-time = "2026-05-12T12:08:58.589Z" },
 ]
